@@ -36,5 +36,11 @@ module.exports = {
     "no-func-assign": "off",
     "no-undef": "off",
     "getter-return": "off",
+    "react/jsx-no-target-blank": [
+      "off",
+      {
+        allowReferrer: "true",
+      },
+    ],
   },
 };
