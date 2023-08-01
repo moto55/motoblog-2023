@@ -1,18 +1,24 @@
 import React from "react";
 import twitterlogo from "./images/twittericon.svg";
+import { Link } from "react-router-dom";
 
 function Contents() {
   return (
     <>
-      <div>
+      <div className="App-container">
+        <h1>motoblog</h1>
         <h2>Uncaught SyntaxError: Unexpected token &apos;&lt;&apos;</h2>
-        <p>エックスサーバーへのアップロードではまった</p>
         <p>
-          みんなに早く伝えたい
+          サーバーへのアップロード時にこのエラーではまった
           <br />
-          React&JavaScriptでこのブログを作り始めてすぐのこと。
+          これをみんなに早く伝えたい
+        </p>
+        <p>
+          このブログを作り始めてすぐのこと。
           <br />
-          初めてだったので試しにエックスサーバーへbuildフォルダをそのままアップロードしたとき
+          React&JavaScriptで作るのが初めての試みだったのもあって
+          <br />
+          buildフォルダをそのままエックスサーバーへアップロードしたとき
           <br />
           上記エラーに苦しめられました。
           <br />
@@ -38,11 +44,18 @@ function Contents() {
           このブログはまだ全然出来てないけど一人でもこの罠から早く抜け出せるようにと記事にしました
         </p>
         2023/7/16
+        <div>お問い合わせ・アドバイスはこちらまで</div>
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://twitter.com/moto_AppCreator"
+        >
+          <img className={"twitterlogo"} src={twitterlogo} alt="twittericon" />
+        </a>
       </div>
-      <div>お問い合わせ・アドバイスはこちら</div>
-      <a target="_blank" rel="noopener" href="https://twitter.com/home">
-        <img className={"twitterlogo"} src={twitterlogo} alt="twittericon" />
-      </a>
+      <Link to={"/portfolio202307"} className="portlink">
+        portfolio
+      </Link>
     </>
   );
 }

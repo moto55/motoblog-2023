@@ -8,9 +8,10 @@
 }
 
 .App-container {
-  text-align: center;
+  text-align: left;
   background-color: #282c34;
   color: white;
+  padding: 20px;
 }
 
 .twitterlogo {
@@ -18,8 +19,13 @@
   height: 70px;
 }
 
-p {
-  font-size: 15px;
+.App-container p {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.portlink {
+  color: white;
+  margin-top: 50px;
 }
 
 /* portfolio */

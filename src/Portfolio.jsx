@@ -52,11 +52,11 @@ function Portfolio() {
               <h4>Androidアプリ</h4>
             </a>
             <p>
+              java/Realm
+              <br />
               数値を入力し保存する
               <br />
               ノートなど使っていたものをアプリに
-              <br />
-              java/Realm
               <br />
               イラストはオリジナルで作製
               <br />
@@ -67,9 +67,9 @@ function Portfolio() {
         <div className="contents-Box">
           <img src={jiroimg} className="jiroimg" alt="jiroimg" />
           <p>
-            日時を記録し見返し反省する
-            <br />
             Kotlin/Jetpack Compose/SQLites
+            <br />
+            日時を記録し見返し反省する
             <br />
             2022
           </p>
@@ -82,8 +82,6 @@ function Portfolio() {
           />
           <p>
             <h4>webサービス</h4>
-            制作途中
-            <br />
             <a
               href="https://twitter-clone-test-8c7e2.web.app/"
               target="_blank"
@@ -92,13 +90,14 @@ function Portfolio() {
               愚民会議（仮）
             </a>
             <br />
+            HTML/CSS/JavaScript/React/Firebase
+            <br />
             スレッドの作成、コメント書き込み
             <br />
             アンケート作成&投票、いいね機能、SNS認証
             <br />
-            HTML/CSS/JavaScript/React/Firebase
+            2023 制作途中
             <br />
-            2023
           </p>
         </div>
       </div>
