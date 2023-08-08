@@ -53,9 +53,12 @@ function Contents() {
           <img className={"twitterlogo"} src={twitterlogo} alt="twittericon" />
         </a>
       </div>
-      <Link to={"/portfolio202307"} className="portlink">
+      {/* <Link to={"/portfolio202307"} className="porfoliotlink">
         portfolio
       </Link>
+      <Link to={"/profile202307"} className="profilelink">
+        profile
+      </Link> */}
     </>
   );
 }

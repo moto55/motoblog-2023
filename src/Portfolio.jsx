@@ -3,16 +3,11 @@ import suspension from "./images/suspensionimg.png";
 import jiroimg from "./images/jiroimg.png";
 import motoblog from "./images/motoblogimg.png";
 import guminkaigiimg from "./images/guminkaigiimg.png";
-import referencebook2 from "./images/referencebook2.jpg";
-import referencebook1 from "./images/referencebook1.jpg";
-import Zoom from "react-medium-image-zoom";
-import "react-medium-image-zoom/dist/styles.css";
 
 function Portfolio() {
-  Zoom();
   return (
     <div className="port-container">
-      <h2>portfolio</h2>
+      <h2>Portfolio</h2>
       <div className="category-box">
         <div className="contents-Box">
           <div>
@@ -99,94 +94,6 @@ function Portfolio() {
             2023 制作途中
             <br />
           </p>
-        </div>
-      </div>
-      <div className="others">
-        <div className="category-box">
-          <h3>講習・コミュニティー</h3>
-          <h4>Java認定資格問題集（通称 黒本）著者のオンライン講習を受講</h4>
-          <p>
-            志賀澄人 主催&nbsp;
-            <a href="https://www.jpin.info/" target="_blank" rel="noopener">
-              JPIN
-            </a>
-            / JAVA PROGRAMMER INTERN AT NIGHT
-            <br />
-            グループディスカッションを主体に、年齢や経験も様々な人たちが集まり
-            <br />
-            お互いを支えあいながら学びあう
-            <br />
-            Javaの基本文法からオブジェクト指向、デザインパターン、良いコードの書き方とは等
-            <br />
-            さらに、お客様のIT化、DXへの効率の良いシステムの構築提案。
-            <br />
-            ヒアリングから要件定義を洗い出し概念モデル、クラス図を作成
-            <br />
-            上流から下流までの一連の工程
-            <br />
-            コミュニティでの定期的な読書会
-            <br />
-            2019-現在
-          </p>
-        </div>
-        <div className="category-box">
-          <h3>所持参考書・キンドル・動画教材</h3>
-          <div className="referencebook">
-            <Zoom>
-              <img
-                src={referencebook1}
-                className="referencebook1"
-                alt="referencebook1"
-              />
-            </Zoom>
-            <Zoom>
-              <img
-                src={referencebook2}
-                className="referencebook2"
-                alt="referencebook1"
-              />
-            </Zoom>
-          </div>
-          <div className="electric">
-            <p>
-              <h3>キンドル</h3>
-              <h4>
-                モダンJavaScriptの基本から始める
-                React実践の教科書（最新ReactHooks対応）
-              </h4>
-              じゃけぇ（岡田 拓巳）
-              <h3>udemy</h3>
-              <h4>
-                【Twitterクローン】React×Firebaseでツイッターアプリをハンズオン形式で自作してみよう！
-              </h4>
-              Shin Code
-              <h4>
-                【2023年最新】React(v18)完全入門ガイド｜Hooks、Next.js、Redux、TypeScript
-              </h4>
-              【CodeMafia】 WEBプログラミング学習
-              <h4>
-                【JS】ガチで学びたい人のためのJavaScriptメカニズム 【CodeMafia】
-              </h4>
-              【CodeMafia】 WEBプログラミング学習
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="category-box">
-        <div className="profile">
-          <div className="snsacount">
-            <h3>twitter/GitHub</h3>
-            <a
-              href="https://twitter.com/moto_AppCreator"
-              target="_blank"
-              rel="noopener"
-            >
-              <h4>twitter</h4>
-            </a>
-            <a href="https://github.com/moto55" target="_blank" rel="noopener">
-              <h4>GitHub</h4>
-            </a>
-          </div>
         </div>
       </div>
     </div>
