@@ -42,5 +42,6 @@ module.exports = {
         allowReferrer: "true",
       },
     ],
+    "no-irregular-whitespace": "Off",
   },
 };
