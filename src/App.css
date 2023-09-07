@@ -15,7 +15,7 @@
 }
 
 .App-container h1 {
-  margin: 30px 0px 50px;
+  margin: 30px 0px 20px;
 }
 
 .App-container h3 {
@@ -50,6 +50,9 @@
 .contents-container p {
   line-height: 1.8em;
   margin: 2em 0;
+}
+.content-box {
+  margin-bottom: 120px;
 }
 
 /* portfolio */

@@ -2,7 +2,7 @@ import React from "react";
 
 function CreatSubDirectory() {
   return (
-    <div>
+    <div className="content-box">
       <h1>ベーシック認証に必要なサブディレクトリを作る</h1>
       <div className="dateOfEntry">2023/9/7</div>
       <p>
