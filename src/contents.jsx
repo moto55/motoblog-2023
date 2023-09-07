@@ -2,54 +2,18 @@ import React from "react";
 import twitterlogo from "./images/twittericon.svg";
 import { Link } from "react-router-dom";
 import PrivacyPolicy from "./PrivacyPolicy";
+import UncaughtSyntaxError from "./contents/UncaughtSyntaxError";
+import CreatSubDirectory from "./contents/CreatSubDirectory";
 
 function Contents() {
   return (
     <>
       <div className="App-container">
         <h3>motoblog</h3>
-        <h1>Uncaught SyntaxError: Unexpected token &apos;&lt;&apos;</h1>
-        <p>
-          サーバーへのアップロード時にこのエラーではまった
-          <br />
-          これをみんなに早く伝えたい
-        </p>
-        <p>
-          このブログを作り始めてすぐのこと。
-          <br />
-          React&JavaScriptで作るのが初めての試みだったのもあって
-          <br />
-          buildフォルダをそのままエックスサーバーへアップロードしたとき
-          <br />
-          上記エラーに苦しめられました。
-          <br />
-          ファイルだけだったりフォルダの中がファイルのみだったら
-          <br />
-          そのままアップロードできます。
-          <br />
-          ただ、
-          <strong>エラーの原因はフォルダの中にフォルダがある場合。</strong>
-          <br />
-          なぜだか中のフォルダだけが無くなってしまいパスが通らなくなってしまいます。
-          <br />
-          さらに謎なのが返ってきたファイルの中身がindex.htmlに書き換えられて、
-          <br />
-          最初のこいつ⇒ &lt;!DOCTYPEhtml&gt;がエラーになってるみたいです。
-          <br />
-          解決策は一つ一つ手作業でサーバーの中へフォルダを作って
-          <br />
-          その中へファイルをアップロードしました。正しいのか不安＆結構手間。
-          <br />
-          いまのところ正しく動いてはいる。
-          <br />
-          FTPクライアントを使えば上手くいくのかな？教えて欲しいです。
-        </p>
-        <p>
-          このブログを作り始めて試しにアップロードしてみたらいきなりこのハマりよう
-          <br />
-          このブログはまだ全然出来てないけど一人でもこの罠から早く抜け出せるようにと記事にしました
-        </p>
-        2023/7/16
+        <div className="contents-container">
+          <CreatSubDirectory />
+          <UncaughtSyntaxError />
+        </div>
         <div>お問い合わせ・アドバイスはこちらまで</div>
         <a
           target="_blank"
