@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import PrivacyPolicy from "./PrivacyPolicy";
 import UncaughtSyntaxError from "./contents/UncaughtSyntaxError";
 import CreatSubDirectory from "./contents/CreatSubDirectory";
+import SqlTest from "./SqlTest";
 
 function Contents() {
   return (
@@ -11,6 +12,7 @@ function Contents() {
       <div className="App-container">
         <h3>motoblog</h3>
         <div className="contents-container">
+          {/* <SqlTest /> */}
           <CreatSubDirectory />
           <UncaughtSyntaxError />
         </div>

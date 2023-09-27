@@ -5,7 +5,7 @@ function CreatSubDirectory() {
     <div className="content-box">
       <h1>ベーシック認証に必要なサブディレクトリを作る</h1>
       <div className="dateOfEntry">2023/9/7</div>
-      <p>
+      <div>
         お問い合わせ有難うございます。
         <p />
         <p>
@@ -36,25 +36,26 @@ function CreatSubDirectory() {
         このようになります⇒　https://www.motoblog55.org/portfolio
         <br />
         あとは既にpublic_htmlにアップロードしたのと同じように新しく作ったportfolioフォルダ内にも必要なフォルダ・ファイルをアップロードします。
-      </p>
+      </div>
       <p>
         前後してしまいましたがアップロード前に下記2点の追加が必要です
         <br />
         package.json内に下記を追加します
-        <br />
-        <div className="codetitle">package.json</div>
-        <div className="codedisplay">
-          &quot;homepage&quot;: &quot;/portfolio/&quot;,
-        </div>
       </p>
+
+      <div className="codetitle">package.json</div>
+      <div className="codedisplay">
+        &quot;homepage&quot;: &quot;/portfolio/&quot;,
+      </div>
+
       <p>
         ルーティングにReact
         Routerを使用している場合はBrowserRouterにbasenameを追加してください
-        <br />
-        <div className="codedisplay">
-          &lt;BrowserRouter basename=&quot;/portfolio/&quot;&gt;
-        </div>
       </p>
+      <div className="codedisplay">
+        &lt;BrowserRouter basename=&quot;/portfolio/&quot;&gt;
+      </div>
+
       <p>これで正しく表示出来てるはずです。</p>
       <p>見てくれてありがとう！</p>
     </div>
